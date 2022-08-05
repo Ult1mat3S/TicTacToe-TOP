@@ -4,7 +4,7 @@ const gameBoard = (() => {
 })
 
 const displayController = (() => {
-    let container = document.querySelector('#container');
+    let container = document.querySelector('#grid');
     // let displayBoard = document.createElement('h1')
     // displayBoard.setAttribute('id', 'board');
 

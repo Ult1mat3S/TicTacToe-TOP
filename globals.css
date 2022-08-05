@@ -1,0 +1,19 @@
+html,
+body {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    border: 1px solid black;
+    padding: 0;
+}
+
+#grid {
+    display: grid;
+    height: 300px;
+    width: 300px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    border: 1px solid blueviolet;
+}
